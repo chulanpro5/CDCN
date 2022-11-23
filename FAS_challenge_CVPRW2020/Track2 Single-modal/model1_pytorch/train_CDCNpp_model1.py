@@ -32,11 +32,11 @@ from utils import AvgrageMeter, accuracy, performances
 
 
 # Dataset root
-image_dir = '/wrk/yuzitong/DONOTREMOVE/CVPRW2020/'          
+image_dir = '/dataset/video/'          
 
 
-train_list = '/wrk/yuzitong/DONOTREMOVE/CVPRW2020/4@1_train.txt'
-val_list = '/wrk/yuzitong/DONOTREMOVE/CVPRW2020/4@1_dev_res.txt'
+train_list = '/dataset/train.txt'
+val_list = '/dataset/val.txt'
 
 #train_list = '/wrk/yuzitong/DONOTREMOVE/CVPRW2020/4@2_train.txt'
 #val_list = '/wrk/yuzitong/DONOTREMOVE/CVPRW2020/4@2_dev_res.txt'
