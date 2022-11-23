@@ -54,7 +54,7 @@ class Spoofing_valtest(Dataset):
 
     def __init__(self, info_list, root_dir,  transform=None):
 
-        self.landmarks_frame = pd.read_csv(info_list, delimiter=' ', header=None)
+        self.landmarks_frame = pd.read_csv(info_list, delimiter=',', header=None)
         self.root_dir = root_dir
         self.transform = transform
 
